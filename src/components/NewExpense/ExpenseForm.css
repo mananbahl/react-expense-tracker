@@ -2,11 +2,36 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin:auto;
     text-align: left;
+    align-items: center;
 }
-.form-fields-control label{
-    font-weight: bold;
+
+.form-fields-title {
+  font-weight: bold;
   margin-bottom: 0.5rem;
-  display: block;
+  margin-left: 4rem;
+}
+.form-fields-title input{
+  margin-left: 0.7rem;
+  margin-right: 2rem;
+  
+}
+
+.form-fields-amount{
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.form-fields-amount input{
+  margin-left: 0.7rem;
+  margin-right: 2rem;
+}
+
+
+.form-fields-date{
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.form-fields-date input{
+  margin-left: 0.7rem;
 }
