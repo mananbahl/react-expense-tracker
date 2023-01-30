@@ -23,9 +23,13 @@ function App() {
       date: new Date(2023, 0, 17),
     }
   ];
+  const addExpenseHandler=(expenseData)=>{
+    console.log(expenseData);
+    expenses={...expenseData}; //spread operator (...)
+  };
   return(
     <div>
-      <NewExpense></NewExpense> 
+      <NewExpense addExpense={addExpenseHandler}></NewExpense> 
       <Expenses expenses={expenses}></Expenses>
     </div>
   );
