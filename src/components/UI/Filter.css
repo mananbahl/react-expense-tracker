@@ -1,0 +1,29 @@
+.filter {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 2%;
+  width: 85%;
+  margin: auto;
+}
+.dropdown {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.custom-select {
+  font-size: larger;
+  font-weight: bold;
+  font-family: Arial;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  background-color: white;
+}
+.select-selected {
+  background-color: DodgerBlue;
+}
+.text {
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
